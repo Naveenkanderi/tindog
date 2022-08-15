@@ -1,0 +1,180 @@
+body{
+  font-family: 'Montserrat';
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1{
+  font-family:'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-bold';
+}
+
+h3{
+  font-family: 'Montserrat-bold';
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navbar */
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.title-image{
+  width:300px;
+  transform: rotate(25deg);
+  position: absolute;
+  margin: 0 0 0 3%;
+
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features{
+  padding: 7% 15% 7%;
+  background-color: white;
+  position: relative;
+}
+
+.fea{
+  color: #bfbfbf;
+  font-size: 1.2rem;
+}
+
+.fa-solid{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-solid:hover{
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+
+/* testimonials */
+
+#testimonials{
+  background-color:#ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* cta */
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-h{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.cta-button{
+  margin: 5% 3% 5% 0;
+  }
+
+
+/* footer */
+
+  #footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+  }
+
+  .footer-p{
+    color: #bfbfbf;
+  }
+
+.social-brand{
+  margin: 20px 10px;
+}
+
+
+@media(max-width:767px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
